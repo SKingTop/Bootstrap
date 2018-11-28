@@ -6,21 +6,15 @@
 	font-family: Montserrat-Bold;
 	src: url(../fonts/Montserrat-Bold.ttf);
 }
-/*.navbar-brand {
-	width: 113px;
-	height: 46px !important;
-}*/
+body {
+	max-width: 1440px;
+	margin: auto;
+}
 .container_1 {
-	/*width: 100%;
-	height: 804px;*/
 	background-color: #eff0f2;
 }
 nav {
-	/*width: 70%;*/
-	/*height: 112px;*/
 	padding-top: 64px;
-/*	margin: auto;*/
-	/*z-index: 2;*/
 }
 .navbar-toggler {
 	outline: none !important;
@@ -30,17 +24,9 @@ nav {
 	width: 100%;
 	height: 100%;
 }
-/*.container-fluid {
-	padding-top: 64px;
-	padding-bottom: 674px;
-}*/
+
 h1 {
 	margin-top: 205px;
-	/*display: block;
-	text-align: center;*/
-	/*width: 1005px;
-	height: 117px;*/
-	/*margin-left: 218px;*/
 	font-size: 2.2em;
 	font-family: Montserrat-Bold; 
 	color: #505050;
@@ -57,33 +43,43 @@ h1 {
 	width: 232px;
 	height: 53px;
 	border-radius: 1px;
-/*	margin-left: 604px;*/
 	border: 2px solid #777879;
 	margin-bottom: 250px;
 }
-.image-1 {
-	/*margin-left: 1094px;*/
+/*.image-1 {
 	width: 133px;
 	height: 119px;
 	margin-bottom: 150px;
-}
+}*/
 .container_2 {
 	background-color: #f8fafa;
+	min-height: 1000px;
+}
+h3 {
+	font-family: Merriweather-Regular;
+	/*margin: 20px 0px;*/
+	font-size: 1.7em;
 }
 h2 {
 	margin-top: 100px;
 	font-family: Montserrat-Bold; 
-	font-size: 2.2em;
+	font-size: 2em;
 	color: #323333;
 }
-p {
+.container_2 p,
+.container_3 p {
 	font-family: Merriweather-Regular;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	color: #848585;
+	margin-bottom: 100px;
 }
-.carousel-indicators {
+/*.carousel_1 {
+	position: relative;
+	margin-bottom: 50px;
+}*/
+/*.carousel-indicators {
   position: absolute;
-  bottom: 10px;
+  bottom: -60px;
   left: 50%;
   z-index: 15;
   width: 60%;
@@ -94,13 +90,37 @@ p {
 }
 .carousel-indicators li {
   display: inline-block;
-  width: 10px;
-  height: 10px;
+  width: 20px;
+  height: 20px;
   margin: 1px;
   text-indent: -999px;
-  cursor: pointer;
-  background-color: #000 \9;
-  background-color: rgba(0, 0, 0, 0);
-  border: 1px solid #fff;
+  cursor: pointer;carousel-item active
+  background-color: #000000 \9;
+  background-color: rgba(171, 167, 167, .5);
+  border: 1px solid #969696;
   border-radius: 10px;
+}*/
+/*.carousel-inner {
+	max-width: 490px !important;
+	max-height: 560px !important;
+}
+.carousel-inner img {
+	max-width: 390px !important;
+	max-height: 480px !important;
+	margin: auto;
+}*/
+/*.carousel_1 {
+	width: 390px;
+	height: 480px;
+}*/
+.container_3 {
+	min-height: 1200px;
+}
+#big {
+	width: 100%%;
+	height: 100%;
+}
+#small {
+	width: 100%;
+	height: 100%;
 }
