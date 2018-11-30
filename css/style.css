@@ -77,7 +77,7 @@ h2 {
 	position: relative;
 	margin-bottom: 50px;
 }*/
-/*.carousel-indicators {
+.carousel-indicators {
   position: absolute;
   bottom: -60px;
   left: 50%;
@@ -99,7 +99,7 @@ h2 {
   background-color: rgba(171, 167, 167, .5);
   border: 1px solid #969696;
   border-radius: 10px;
-}*/
+}
 /*.carousel-inner {
 	max-width: 490px !important;
 	max-height: 560px !important;
@@ -116,11 +116,78 @@ h2 {
 .container_3 {
 	min-height: 1200px;
 }
-#big {
+/*.big {
 	width: 100%%;
 	height: 100%;
 }
-#small {
+.small {
 	width: 100%;
 	height: 100%;
+}*/
+.bigBlock,
+.smallBlock {
+	height: 400px;
+}
+.imgG img {
+	max-width: 100%;
+	height: 100%;
+}
+.bigBlock {
+	background-image: url(../images/background.jpg);
+	overflow: hidden;
+}
+.smallBlock {
+	background-image: url(../images/background.jpg);
+	overflow: hidden;
+}
+.bigBlock p{
+	max-width: 100%;
+	height: 100%;
+	padding: 25%;
+	background-color: rgba(0,255,0,0.5);
+}
+.smallBlock p{
+	max-width: 100%;
+	height: 100%;
+	padding: 25%;
+	background-color: rgba(255,0,0,0.5);
+}
+.container_5 {
+	min-height: 1500px;
+}
+.container_5 img {
+	width: 100%;
+	max-height: 400px;
+}
+.imgGG {
+	position: relative;
+}
+.title {
+	position: absolute;
+	bottom: 25px;
+	left: 25px;
+	background-color: green;
+	width: 80%;
+	height: 40%;
+	opacity: 0;
+	border-radius: 10px;
+}
+.imgGG:hover .title {
+	opacity: 1;
+}
+.triug {
+	position: absolute;
+	/*border-radius-left:50%;
+	border-radius-right:50%;*/
+	border: 20px solid transparent;
+	border-bottom: 20px solid green;
+	/*width: 40px;
+	height: 40px;*/
+	top: -30px;
+	left: 50px;
+	z-index: 0;
+	/*background-color: red;*/
+}
+.imgGG h3 {
+	font-size: 2.5vw;
 }
