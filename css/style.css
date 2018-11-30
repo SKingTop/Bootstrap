@@ -46,6 +46,10 @@ h1 {
 	border: 2px solid #777879;
 	margin-bottom: 250px;
 }
+.btn-outline-secondary a {
+	text-decoration: none;
+	color: black;
+}
 /*.image-1 {
 	width: 133px;
 	height: 119px;
