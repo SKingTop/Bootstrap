@@ -373,7 +373,6 @@ nav {
 	font-size: 15px;
 }
 .container_5ImageTitle h3 {
-	font-style: italic;
 	font-family: Merriweather-Bold;
 	margin-left: 40px;
 }
@@ -444,22 +443,33 @@ nav {
 }
 #carousel_3 {
 	/*max-width: 670px;*/
-	height: 360px;
+	min-height: 360px;
 	margin: auto;
 	margin-left: 0px;
 	margin-top: 20px;
 }
 .carousel_3Content {
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: 90px;
+	padding-right: 90px;
 	padding-top: 100px;
 	text-align: center;
 	background-color: #eaebed;
 	min-height: 360px;
 }
 .carousel_3Content p {
-	height: 170px;
+	min-height: 170px;
 	margin-bottom: 0;
+	font-size: 18px;
+}
+.carousel_3Content span {
+	font-style: italic;
+	font-family: Merriweather-Regular;
+	font-size: 15px;
+}
+.carousel_3Content h3 {
+	font-family: Merriweather-Bold;
+	margin-left: 40px;
+	font-size: 20px;
 }
 .fa-star {
 	color: #f2da3b;
