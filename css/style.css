@@ -153,6 +153,9 @@ nav {
 	margin: auto;
 	padding-bottom: 100px;
 }
+.container_4Background {
+	background-color: #f9fbfb;
+}
 .container_4 h2 {
 	padding-top: 100px;
 	font-family: Montserrat-Bold; 
@@ -396,8 +399,11 @@ nav {
 /*/////////container_6////////////////////////////////*/
 .container_6 {
 	max-width: 1440px;
-	/*min-height: 1315px;*/
+	min-height: 920px;
 	margin: auto;
+}
+.container_6Background {
+	background-color: #f9fbfb;
 }
 .container_6 h2 {
 	padding-top: 100px;
@@ -473,6 +479,45 @@ nav {
 }
 .fa-star {
 	color: #f2da3b;
+}
+/*/////////container_7/////////////////////////////////*/
+.container_7{
+	max-width: 1440px;
+	min-height: 390px;
+	margin: auto;
+	padding-top: 120px;
+}
+.container_7Image {
+	padding-bottom: 50px;
+}
+/*/////////container_8/////////////////////////////////*/
+.container_8 {
+	max-width: 1440px;
+	min-height: 704px;
+	margin: auto;
+}
+.container_8Background {
+	background-image: url(../images/container8Background.png);
+	/*background-repeat: round;*/
+	background-size: 100%;
+}
+#Name {
+	border: none;
+	background-color: rgba(0,0,0,0);
+	max-width: 550px;
+	min-height: 50px;
+	padding: 10px 0;
+	outline: none;
+	border-bottom: 1px solid green;
+	margin-bottom: 10px;
+	color: white;
+}
+[placeholder] {
+	color: white;
+}
+form {
+	background-color: rgba(0,0,0,0.5);
+	padding: 20px;
 }
 /*/////////@media/////////////////////////////////*/
 @media only screen and (max-width: 320px) {
