@@ -1,0 +1,225 @@
+@media only screen and (max-width: 1024px) {
+	#carousel_3 .carousel-control-prev {
+	position: absolute;
+	left: 80%;
+	top: 105%;
+}
+#carousel_3 .carousel-control-next {
+	position: absolute;
+	left: 90%;
+	top: 105%;
+}
+form {
+	margin: auto;
+	margin-top: 20px;
+	max-width: 80%;
+	margin-bottom: 20px;
+}
+#feedBackButton {
+	left: 285px;
+	bottom: 40px;
+}
+.contactContainer {
+	margin: auto;
+	max-width: 80%;
+	height: 500px;
+	margin-bottom: 20px;
+}
+.contactMap {
+	max-width: 80%;
+	height: 284px;
+	margin: auto;
+}
+.contactInfo {
+	padding-left: 80px;
+}
+.map {
+	overflow:hidden;
+	width: 100%;
+	height: 100%;
+}
+.embedMap {
+	width: 100%;
+	height: 100%;
+}
+.container_7 img {
+	width: 150px;
+}
+}
+@media only screen and (max-width: 768px) {
+	#carousel_1 {
+	margin-left: 0;
+	margin: auto;
+}
+#carousel_1 .carousel-indicators {
+	bottom: 0px;
+}
+.container_5ImageTitle {
+	bottom: 5%;
+	left: 185px;
+}
+#carousel_2 {
+	margin-bottom: 50px;
+}
+#carousel_3 {
+	margin-bottom: 100px;
+}
+#feedBackButton {
+	left: 185px;
+	bottom: 40px;
+}
+}
+@media only screen and (max-width: 600px){
+.container_5ImageTitle {
+	bottom: 5%;
+	left: 95px;
+}
+.carousel_3Content {
+	padding: 50px;
+}
+.carousel_3Content p {
+	margin-top: 30px;
+	height: 220px;
+}
+.carousel_3Content h3 {
+	margin: 0;
+}
+	#carousel_3 .carousel-control-prev {
+	position: absolute;
+	left: 75%;
+	top: 105%;
+}
+#carousel_3 .carousel-control-next {
+	position: absolute;
+	left: 88%;
+	top: 105%;
+}
+#name,
+#subject,
+#email,
+#message {
+	max-width: 350px;
+}
+#feedBackButton {
+	left: 145px;
+	bottom: 40px;
+}
+.container_7 img {
+	width: 120px;
+	height: 50px;
+}
+.contactInfo {
+	padding-left: 40px;
+}
+}
+@media only screen and (max-width: 480px){
+.container_5ImageTitle {
+	bottom: 5%;
+	left: 65px;
+}
+#name,
+#subject,
+#email,
+#message {
+	max-width: 300px;
+}
+#feedBackButton {
+	left: 105px;
+	bottom: 40px;
+	width: 160px;
+	height: 45px;
+	font-size: 15px;
+}
+}
+@media only screen and (max-width: 320px) {
+.container_1 h1 {
+	font-size: 2.1em;
+}
+.navbar-brand img {
+		width: 90%;
+		height: 90%;
+	}
+.container_1 .btn-outline-secondary {
+	width: 132px;
+	height: 43px;
+	font-size: 16px;
+}
+.container_2 h2,
+.container_3 h2,
+.container_4 h2,
+.container_5 h2,
+.container_6 h2 {
+	padding-top: 60px;
+	font-size: 1.9em;
+}
+.container_2 p,
+.container_3 p,
+.container_4 p,
+.container_5 p,
+.container_6 p {
+	font-size: 1.1em;
+}
+.container_3 p,
+.container_4 p,
+.container_5 p,
+.container_6 p {
+	margin-bottom: 50px;
+}
+.container_7 {
+	display: none;
+}
+.smallBlockFaceSideText,
+.bigBlockFaceSideText {
+	padding-top: 120px;
+}
+.smallBlockBackSide p,
+.bigBlockBackSide p {
+	height: 230px;
+	margin-bottom: 0;
+}
+.container_5ImageTitle {
+	bottom: 15px;
+	left: 5%;
+	width: 90%;
+}
+.container_5ImageTitle span, 
+.container_5ImageTitle h3{
+	font-size: 15px;
+	margin-top: 30px;
+	text-align: left;
+}
+.container_5ImageTitle p {
+	font-size: 14px;
+}
+.container_5Image,
+.container_5Image img{
+	height: 400px;
+}
+.carousel_3Content p {
+	height: 280px;
+}
+#carousel_3 .carousel-control-prev {
+	position: absolute;
+	left: 55%;
+	top: 105%;
+}
+#carousel_3 .carousel-control-next {
+	position: absolute;
+	left: 78%;
+	top: 105%;
+}
+.container_8 {
+	min-height: 300px;
+	height: 300px;
+}
+form {
+	display: none;
+}
+.contactContainer {
+	min-height: 250px;
+	height: 250px;
+}
+.contactMap {
+	display: none;
+}
+}
